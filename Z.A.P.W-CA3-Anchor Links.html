@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <title>Z.A - Protfolio Website - CA3 - Anchor Links</title>
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+        <body>
+            
+        <div class="header">
+            <h1>Anchor Links</h1>
+        </div>
+        <style>
+        * {
+            box-sizing: border-box;
+         }       
+        body {
+            margin: 0;
+         }            
+        .header {
+            background-color: #c2c2c2;
+            padding: 20px;
+            text-align: center;
+         }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }           
+        li {
+            float: left;
+        }         
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }       
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: rgb(85, 85, 85);
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .box_model{
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid rgb(77, 77, 77);
+            padding: 50px;
+            margin: 20px;
+        }
+        #rcorners_CSS_BM {
+            border-radius: 25px;
+            background: lightgrey;
+            border: 15px solid rgb(77, 77, 77);
+            padding: 20px; 
+            width: 300px;
+            height: 150px;  
+        }
+        .anchorlink_one{
+            font-size: 100%;
+            font-weight:bold;
+            color: rgb(143, 0, 0);
+        }
+        .anchorlink_two{
+            font-size: 100%;
+            font-weight:bold;
+            color: rgb(0, 143, 0);
+        }
+        .anchorlink_three{
+            width: 64px;
+            height: 64px;
+            margin: 20px;
+            border: 5px solid rgb(77, 77, 77);
+            border-radius: 50px;
+        }
+        .exposion{
+            border: 12px solid rgb(77,77,77);
+            padding: 23px;
+            margin: 20px;
+        }
+        </style>
+            </head>
+            <body>
+            
+            <ul>
+              <li><a href="file:///C:/Users/morgo/Z.A.P.W-home.html">Home.</a></li>
+              <li><a href="file:///C:/Users/morgo/Z.A.P.W-List.html">List.</a></li>
+              <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Modules</a>
+                <div class="dropdown-content">
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA1.html">CA1 - Problem Solving</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA2.html">CA2 - Python Programming</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA3.html">CA3 - Emerging Issues</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA4.html">CA4 - Legislation</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA5.html">CA5 - Business Context</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA6.html">CA6 - Data</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA7.html">CA7 - Network Enviroments</a>
+                <a href="file:///C:/Users/morgo/Z.A.P.W-CA8.html">CA8 - Security</a>
+                </div>
+              </li>
+              <li><a href="file:///C:/Users/morgo/Z.A.P.W-About%20Me.html">About Me.</a></li>
+            </ul> 
+                <div class="exposion">
+                    <p style="font-size: 125%;">An achor link is a way of connecting two places togther, and this can be done in many ways:</p>
+                  <div class="exposion"> 
+                    <p>- One way of including an anchor link is to use it to navigate to a website's <a class="anchorlink_one" href="https://www.bing.com/" target="_blank">URL</a></p>
+                  </div>
+                  <div class="exposion"> 
+                    <p>- Another way of including an anchor is to use it to navigate to a different section of the <a class="anchorlink_two" href="#_blank" target="_blank">page</a> - (this page isn't big enough for the link to make sense on it's own so I made it create a copy in a new tab, to make the link direct you tabo diffent sections you need to specify the " target='_' ")</p>
+                  </div>
+                  <div class="exposion">
+                    <p>- You could always use a image as a link:</p>
+                    <a href="https://www.bing.com/" target="_blank">
+                        <img src="https://th.bing.com/th/id/R.ca81676374dac92e6498ae7feeb8b696?rik=%2f2KEte5G7NI1Hg&riu=http%3a%2f%2fcdn2.hubspot.net%2fhub%2f181021%2ffile-338034070-jpg%2fimages%2freal_world_examples.jpg&ehk=gq9CNT9uKMNYxxD4072oDS2umzG2JHCB1k3PwT3FYEw%3d&risl=&pid=ImgRaw&r=0" alt="EXAMPLE" class="anchorlink_three">
+                    </a>
+                  </div>
+                </div>
+               <style>
+                ul.a {
+                    list-style-type: square;
+                }
+                </style>
+    </body>
+</html>
